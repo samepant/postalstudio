@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      <div class="pretty-bits">
+        <div class="header">
+          <svg height="1" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+          <filter id="displacementFilter">
+            <feTurbulence type="turbulence" numOctaves="6" result="turbulence" baseFrequency="0.0357801">
+            <animate attributeType="XML" attributeName="baseFrequency" values="0.001 ; 0.004 ; 0.001" dur="30s" repeatCount="indefinite"></animate>
+            </feTurbulence>
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="100" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+          </filter>
+        </svg>
+          <h1>GOES<br />POSTAL</h1>
+        </div>
+        <div class="cube-wrap">
+          <div class="cube">
+            <div class="piece front side"></div>
+            <div class="piece back side"></div>
+            <div class="piece top left-half"></div>
+            <div class="piece top right-half"></div>
+            <div class="piece bottom"></div>
+            <div class="piece left side width">it fits</div>
+            <div class="piece right side width">it ships</div>
+            <div class="insert">???</div>
+          </div>
+        </div>
+      </div>
+      <div class="info-bits">
+        <h2>How To</h2>
+        <ol>
+          <li>if you haven't already, join the <a href="http://learning-gardens.co/join.html">slack</a></li>
+          <li>get one of <a href="https://store.usps.com/store/browse/uspsProductDetailMultiSkuDropDown.jsp?productId=P_O_FRB1&categoryId=international-shipping">these boxes</a> – they're free!!</li>
+          <li>design and pack your object</li>
+          <li>ship it to another #studio_studio member</li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
