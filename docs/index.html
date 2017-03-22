@@ -9,13 +9,13 @@
       <div class="pretty-bits">
         <div class="header">
           <svg height="1" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
-          <filter id="displacementFilter">
-            <feTurbulence type="turbulence" numOctaves="6" result="turbulence" baseFrequency="0.0357801">
-            <animate attributeType="XML" attributeName="baseFrequency" values="0.001 ; 0.004 ; 0.001" dur="30s" repeatCount="indefinite"></animate>
-            </feTurbulence>
-            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="100" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
-          </filter>
-        </svg>
+            <filter id="displacementFilter">
+              <feTurbulence type="turbulence" numOctaves="6" result="turbulence" baseFrequency="0.0357801">
+              <animate attributeType="XML" attributeName="baseFrequency" values="0.001 ; 0.004 ; 0.001" dur="30s" repeatCount="indefinite"></animate>
+              </feTurbulence>
+              <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="100" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+            </filter>
+          </svg>
           <h1>GOES<br />POSTAL</h1>
         </div>
         <div class="cube-wrap">
@@ -32,12 +32,31 @@
         </div>
       </div>
       <div class="info-bits">
-        <h2>How To</h2>
-        <ol>
+        <svg height="1" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+          <filter id="displacementFilter2">
+            <feTurbulence type="turbulence" numOctaves="6" result="turbulence" baseFrequency="0.012225">
+            </feTurbulence>
+            <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="20" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+          </filter>
+        </svg>
+        <h2 style="filter: url(#displacementFilter2)">What is this?</h2>
+        <p class="how-to">Our slack-based community, #studio_studio, a channel in Learning Gardens, is starting a snail-mail based object exchange!</p>
+        <p class="how-to">We will each create a series of objects that either fits, or can be packed down into the 11"x8.5"x5.5" Flat Rate USPS box, and then ship them to another #studio_studio member to assemble and document.</p>
+        <h2 style="filter: url(#displacementFilter2)">How To</h2>
+        <ol class="how-to">
           <li>if you haven't already, join the <a href="http://learning-gardens.co/join.html">slack</a></li>
           <li>get one of <a href="https://store.usps.com/store/browse/uspsProductDetailMultiSkuDropDown.jsp?productId=P_O_FRB1&categoryId=international-shipping">these boxes</a> – they're free!!</li>
           <li>design and pack your object</li>
           <li>ship it to another #studio_studio member</li>
+        </ol>
+        <h2 style="filter: url(#displacementFilter2)">Projects</h2>
+        <ol class="how-to">
+          <li>chairs</li>
+          <li>?????</li>
+          <li>????????</li>
+          <li>??????</li>
+          <li>?????????</li>
+          <li>we need suggestions</li>
         </ol>
       </div>
     </div>
